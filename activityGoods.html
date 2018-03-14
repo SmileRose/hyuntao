@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8" />
+		<title>商品选择</title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- basic styles -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css" />
+		<![endif]-->
+
+		<link rel="stylesheet" href="assets/css/ace.min.css" />
+		<link rel="stylesheet" href="assets/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="assets/css/ace-skins.min.css" />
+		<link rel="stylesheet" href="assets/css/zz.css" />
+
+		<!--[if lte IE 8]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		<![endif]-->
+		<script src="assets/js/ace-extra.min.js"></script>
+		<!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="navbar navbar-default" id="navbar">
+			<script type="text/javascript">
+				try {
+					ace.settings.check('navbar', 'fixed')
+				} catch (e) {}
+			</script>
+
+			<div class="navbar-container" id="navbar-container">
+				<div class="navbar-header pull-left">
+					<a href="#" class="navbar-brand">
+						<small>							
+							好云淘营销中心
+						</small>
+					</a>
+					<!-- /.brand -->
+				</div>
+				<!-- /.navbar-header -->
+
+				<div class="navbar-header pull-right" role="navigation">
+					<ul class="nav ace-nav">
+						<li class="light-blue">
+							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
+								<img class="nav-user-photo" src="assets/avatars/user.jpg" alt="Jason's Photo" />
+								<span class="user-info">
+									<small>Welcome,</small>
+									Jason
+								</span>
+
+								<i class="icon-caret-down"></i>
+							</a>
+
+							<ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+								<li>
+									<a href="#">
+										<i class="icon-cog"></i> 设置
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										<i class="icon-user"></i> Profile
+									</a>
+								</li>
+
+								<li class="divider"></li>
+
+								<li>
+									<a href="#">
+										<i class="icon-off"></i> 退出
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--head End-->
+
+		<div class="main-container" id="main-container">
+			<script type="text/javascript">
+				try {
+					ace.settings.check('main-container', 'fixed')
+				} catch (e) {}
+			</script>
+			<!--左侧菜单 Start-->
+
+			<div class="main-container-inner">
+				<a class="menu-toggler" id="menu-toggler" href="#">
+					<span class="menu-text"></span>
+				</a>
+
+				<div class="sidebar" id="sidebar">
+					<script type="text/javascript">
+						try {
+							ace.settings.check('sidebar', 'fixed')
+						} catch (e) {}
+					</script>
+
+					<ul class="nav nav-list">
+						<li class="active">
+							<a href="index.html">
+								<i class="icon-dashboard"></i>
+								<span class="menu-text"> 控制台 </span>
+							</a>
+						</li>
+
+						<li>
+							<a href="typography.html">
+								<i class="icon-text-width"></i>
+								<span class="menu-text"> 创建活动 </span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#" class="dropdown-toggle">
+								<i class="icon-desktop"></i>
+								<span class="menu-text"> 活动列表 </span>
+							</a>
+						</li>
+					</ul>
+
+					<div class="sidebar-collapse" id="sidebar-collapse">
+						<i class="icon-double-angle-left" data-icon1="icon-double-angle-left" data-icon2="icon-double-angle-right"></i>
+					</div>
+
+					<script type="text/javascript">
+						try {
+							ace.settings.check('sidebar', 'collapsed')
+						} catch (e) {}
+					</script>
+				</div>
+			</div>
+			<!--左侧菜单 End-->
+
+			<div class="main-content">
+				<div class="breadcrumbs" id="breadcrumbs">
+					<script type="text/javascript">
+						try {
+							ace.settings.check('breadcrumbs', 'fixed')
+						} catch (e) {}
+					</script>
+
+					<ul class="breadcrumb">
+						<li>
+							<i class="icon-home home-icon"></i>
+							<a href="#">限时抢购</a>
+						</li>
+
+						<li class="active">创建活动</li>
+					</ul>
+					<!-- .breadcrumb -->
+
+					<div class="nav-search" id="nav-search">
+						<form class="form-search">
+							<span class="input-icon">
+								<input type="text" placeholder="搜索" class="nav-search-input" id="nav-search-input" autocomplete="off" />
+								<i class="icon-search nav-search-icon"></i>
+							</span>
+						</form>
+					</div>
+					<!-- #nav-search -->
+				</div>
+
+				<div class="page-content">
+					<div class="page-header">
+						<h1>商品选择</h1>
+					</div>
+
+					<!--table start-->
+					<div class="row">
+						<div class="col-xs-12">
+							<!-- PAGE CONTENT BEGINS -->
+							<form class="form-horizontal" role="form">
+								<!--活动名称 start-->
+								<div class="form-group">
+									<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 商品名称 </label>
+
+									<div class="col-sm-9">
+										<span class="input-icon">
+												<input type="text" placeholder="模糊搜索" class="nav-search-input col-xs-10 col-sm-10 col-lg-12" id="nav-search-input" autocomplete="off" />
+												<i class="icon-search nav-search-icon"></i>
+											</span>
+									</div>
+								</div>
+								<div class="space-4"></div>
+								<!--活动名称 End-->
+
+								<!--价格start-->
+								<div class="form-group">
+									<label class="col-sm-3 control-label no-padding-right">价格范围</label>
+
+									<div class="col-sm-9">
+										<span class="input-icon">
+											<input type="text" id="form-field-icon-1" />
+											<i class="icon-leaf blue"></i>
+										</span>
+										<div class="help-block col-sm-reset inline"> - </div>
+
+										<span class="input-icon input-icon-right">
+											<input type="text" id="form-field-icon-2" />
+											<i class="icon-leaf green"></i>
+										</span>
+										<span class="middle">元</span>
+									</div>
+								</div>
+
+								<div class="space-4"></div>
+								<!--推广渠道 End-->
+
+								<!--活动时间 start-->
+								<div class="form-group">
+									<label class="col-sm-3 control-label no-padding-right"> 商品分类</label>
+									<div class="col-sm-9 col-lg-5">
+										<span class="input-icon">
+											<select id="s_province" class="form-control" name="s_province"></select>  
+										</span>
+
+										<span class="input-icon">
+											<select id="s_city" class="form-control" name="s_city" ></select>  
+										</span>
+
+										<span class="input-icon">
+											<select id="s_county" class="form-control" name="s_county"></select>&nbsp;&nbsp;
+										</span>
+									</div>
+								</div>
+
+								<div class="space-4"></div>
+								<!--商品分类 End-->
+								<!--企业商品 start-->
+								<div class="form-group">
+									<label class="col-sm-3 control-label no-padding-right"> 企业商品</label>
+									<div class="col-sm-9 col-lg-8">
+										<span class="input-icon">
+											<select class="form-control" id="form-field-select-1">
+												<option value="">一级分类</option>
+												<option value="AL">Alabamadfd fd fd fdf </option>
+												<option value="AK">Alaska</option>
+												<option value="AZ">Arizona</option>	
+											</select>
+										</span>
+									</div>
+									<!--企业商品 End-->
+								</div>
+
+								<div class="space-4"></div>
+								<!--商品分类 End-->
+
+								<!--按钮部分 start-->
+								<div class="clearfix form-actions">
+									<div class="col-md-offset-3 col-md-9">
+										<a class="btn btn-sm" href="javascript:;   ">
+											<i class="icon-search bigger-110"></i> 查询
+										</a>
+									</div>
+								</div>
+							</form>
+
+							<div class="col-xs-12">
+								<div class="table-header">
+									搜索结果
+								</div>
+
+								<div class="table-responsive">
+									<table class="table table-striped table-bordered table-hover">
+										<thead>
+											<tr>
+												<th class="center">
+													<label>
+														<input type="checkbox" class="ace" />
+														<span class="lbl"></span>
+													</label>
+												</th>
+												<th>商品名称</th>
+												<th>所属企业</th>
+												<th><i class="icon-yen bigger-110 hidden-480"></i> 售价</th>
+
+												<th>
+													库存量
+												</th>
+												<th class="hidden-480">操作</th>
+												<th></th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="center">
+													<label>
+														<input type="checkbox" class="ace" />
+														<span class="lbl"></span>
+													</label>
+												</td>
+
+												<td>
+													<a href="#"><img src="assets/avatars/avatar.png" class="zz-add-img">37度 泸州老窖原浆500ml</a>
+												</td>
+												<td>泸州老窖</td>
+												<td class="hidden-480">￥100</td>
+												<td>1000</td>
+
+												<td class="hidden-480">
+													<a class="btn btn-info btn-xs btn-warning">添加</a>
+												</td>
+
+												<td>
+												</td>
+											</tr>
+											<tr>
+												<td class="center">
+													<label>
+														<input type="checkbox" class="ace" />
+														<span class="lbl"></span>
+													</label>
+												</td>
+
+												<td>
+													<a href="#"><img src="assets/avatars/avatar.png" class="zz-add-img">36度 泸州老窖原浆500ml</a>
+												</td>
+												<td>泸州老窖</td>
+												<td class="hidden-480">￥100</td>
+												<td>1000</td>
+
+												<td class="hidden-480">
+													<a class="btn btn-info btn-xs" type="button">已添加</a>
+												</td>
+
+												<td>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!--table End -->
+								</div>
+								<!--按钮 下一步 start-->
+
+								<div class="clearfix form-actions">
+									<div class="col-md-offset-3 col-md-9">
+										<a class="btn btn-sm" type="reset">
+											<i class="icon-undo bigger-110"></i> 上一步 修改活动信息
+										</a>
+										&nbsp; &nbsp; &nbsp;
+
+										<a class="btn btn-info btn-sm" type="button">
+											<i class="icon-ok bigger-110"></i> 下一步 设置商品活动
+										</a>
+									</div>
+								</div>
+
+								<!--按钮 下一步 End-->
+							</div>
+						</div>
+
+					</div>
+					<!--table sEnd-->
+				</div>
+			</div>
+		</div>
+
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+
+		<script src="assets/js/jquery-2.0.3.min.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<![endif]-->
+
+		<!--[if !IE]> -->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='assets/js/jquery-2.0.3.min.js'>" + "<" + "/script>");
+		</script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+			<script type="text/javascript">
+				indow.jQuery || document.write("<script src='assets/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+			</script>
+		<![endif]-->
+
+		<script type="text/javascript">
+			if ("ontouchend" in document) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>" + "<" + "/script>");
+		</script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/typeahead-bs2.min.js"></script>
+		<!--级联代码-->
+		<script src="assets/js/zz/area.js"></script>
+		<script type="text/javascript">
+			_init_area();
+		</script>
+
+		<!-- page specific plugin scripts -->
+
+		<!--[if lte IE 8]>
+		  <script src="assets/js/excanvas.min.js"></script>
+		<![endif]-->
+
+		<script type="text/javascript">
+			jQuery(function($) {
+				$('table th input:checkbox').on('click', function() {
+					var that = this;
+					$(this).closest('table').find('tr > td:first-child input:checkbox')
+						.each(function() {
+							this.checked = that.checked;
+							$(this).closest('tr').toggleClass('selected');
+						});
+				});
+				//三级级联效果
+				var Gid = document.getElementById;
+				var showArea = function() {
+					Gid('show').innerHTML = "<h3>分类" + Gid('s_province').value + " 分类" +
+						Gid('s_city').value + " - 分类" +
+						Gid('s_county').value + "</h3>"
+				}
+				Gid('s_county').setAttribute('onchange', 'showArea()');
+			});
+		</script>
+	</body>
+
+</html>

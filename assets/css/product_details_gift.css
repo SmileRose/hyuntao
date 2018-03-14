@@ -1,0 +1,735 @@
+.zz_red{color: #CF1E2C;}
+.font14{font-size: 14px;}
+/*商品介绍*/
+.intro {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.intro_title {
+    width: 100%;
+    height: 40px;
+    color: #333;
+    font-size: 14px;
+}
+
+.intro_title span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.intro_img {
+    width: 400px;
+    float: left;
+}
+
+.show_img {
+    width: 398px;
+    height: 398px;
+    border: 1px solid #ddd;
+}
+
+.small_img_ul {
+    width: 410px;
+    padding: 10px 0 15px 0;
+    overflow: hidden;
+}
+
+.small_img_list {
+    width: 70px;
+    height: 70px;
+    float: left;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+
+.small_img_list img {
+    width: 70px;
+    height: 70px;
+}
+
+.small_img_list:hover {
+    border: 1px solid #cf1e2c;
+}
+
+.intro_collect {
+    width: 160px;
+    float: left;
+    padding-left: 20px;
+    position: relative;
+}
+
+.collect_icon {
+    width: 12px;
+    height: 12px;
+    background: url(../images/PCimg/icon.png);
+    background-repeat: no-repeat;
+    background-position: -320px -600px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+.intro_img, span a {
+    color: #666;
+}
+
+.intro_con {
+    width: 770px;
+    float: left;
+    padding-left: 30px;
+    display: inline;
+}
+
+.intro_con_name p {
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    font-size: 16px;
+    color: #333;
+    padding-bottom: 5px;
+}
+
+.intro_con_name .font14{display:block;overflow:hidden;height:45px;color:#CF1E2C}
+.intro_con_middle{float:left;width:517px}
+.intro_con_price{position:relative;width:315px;height:45px}
+.intro_con_price .old_price{float:left;text-decoration:line-through;font-size:12px}
+.intro_con_price p{float:left;width:120px;color:#cf1e2c;letter-spacing:-1px;font-size:34px}
+.intro_con_price p em{font-style:normal;font-size:24px}
+.special_sale_icon{float:left;margin-right:10px;width:45px;height:24px;background:#333;color:#FFF;text-align:center}
+
+
+
+
+.intro_con_info {
+    width: 485px;
+    font-size: 12px;
+    color: #999;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.intro_con_place {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.intro_con_text {
+    color: #666;
+    padding-bottom: 25px;
+}
+
+.intro_con_text span {
+    color: #005aa0;
+    padding: 10px 20px 10px 35px;
+    position: relative;
+}
+
+.return_icon {
+    width: 28px;
+    height: 28px;
+    background: url(../images/PCimg/icon.png);
+    background-repeat: no-repeat;
+    background-position: -200px -600px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+.sent_icon {
+    width: 28px;
+    height: 28px;
+    background: url(../images/PCimg/icon.png);
+    background-repeat: no-repeat;
+    background-position: -240px -600px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+.transport_icon {
+    width: 28px;
+    height: 28px;
+    background: url(../images/PCimg/icon.png);
+    background-repeat: no-repeat;
+    background-position: -280px -600px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+.add_buy_car {
+    width: 100px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    background: #cf1e2c;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 5px 0 50px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.add_buy_car_icon {
+    width: 25px;
+    height: 25px;
+    background: url(../images/PCimg/icon.png);
+    background-repeat: no-repeat;
+    background-position: -120px -720px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+/*相关商品*/
+.intro_other {
+    width: 198px;   
+    float: right;
+    border: 1px solid #ddd;
+  
+}
+
+.intro_other_title{width:100%;height:40px;background:#F8F8F8;line-height:40px}
+.intro_other_title h2{padding:0 10px;color:#333;font-weight:400;font-size:16px}
+.intro_other_title h2 a{float:right;color:#666;text-align:right;font-size:12px}
+.intro_other_main ul li{padding:0 10px;border-top:1px solid #DDD}
+.intro_other_main ul li a:link,.intro_other_main ul li a:visited{display:block;width:180px}
+.intro_other_main ul li a:hover{color:#CF1E2C}
+.intro_other_main ul li img{margin-top:10px;width:180px;height:180px}
+.intro_other_main ul li strong{height:30px;color:#CF1E2C;font-weight:400;font-size:16px;line-height:30px}
+
+
+
+
+
+.zz_phone_buy{background: #CF1E2C; color: #FFF; border-radius: 3px; width: 160px; height: 30px; line-height: 30px; ; font-size: 12px; position: relative;}
+.zz_phone_buy .erweima{background: url(../images/PCimg/erweima.png) no-repeat; left: 6px; top: 5px; width: 18px; height: 18px;position: absolute; background-size: 18px;}
+.phone_price_title{padding-left: 28px;}
+.phone_price{font-size: 14px; color: #FFF100;font-weight: bold;}
+
+
+/*进度条*/
+.fast_buy_bar {
+	padding: 10px 0;
+	overflow: hidden;
+}
+.fast_buy_bar_title {
+	color: #666
+}
+/*进度条*/
+
+.sellNum {
+	float: left;	
+	margin: 5px 0;
+	width: 218px;
+	height: 4px;
+	border: 1px solid #f5a9af;
+	border-radius: 5px;
+	background: #FFF
+}
+.sellNumber {
+	height: 4px;
+	background: #f5a9af
+}
+a.fast_buy_button {
+	display: block;
+	margin: 4px 0 0 0;
+	width: 208px;
+	height: 50px;
+	border-radius: 6px;
+	color: #FFF;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 50px
+}
+
+/*详情*/
+.detail {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.detail_left {
+    width: 198px;
+    float: left;
+}
+
+.detail_right {
+    width: 980px;
+    float: left;
+    margin-left: 20px;
+}
+
+.detail_con_main {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.detail_text {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.detail_con {
+    color: #666;
+    padding-bottom: 5px;
+}
+
+.detail_con span {
+    color: #333;
+}
+
+.detail_ewm {
+    width: 100%;
+    text-align: center;
+    padding-top: 7px;
+    color: #333;
+}
+
+.detail_ewm img {
+    width: 168px;
+    height: 168px;
+}
+
+.recommend_product_left_title {
+    width: 183px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    padding-left: 15px;
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+.recommend_product_left_list {
+    width: 178px;
+    height: 203px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+
+.product_list_photo {
+    width: 100%;
+    height: 160px;
+}
+
+.recommend_product_left_con {
+    width: 100%;
+    height: 45px;
+}
+
+.recommend_product_left_con a {
+    width: 100%;
+    height: 20px;
+    display: block;
+}
+
+.recommend_product_left_price {
+    font-size: 16px;
+    color: #cf1e2c;
+    margin-top: 5px;
+}
+
+.recommend_product_left_titles {
+    width: 183px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    padding-left: 15px;
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    color: #333;
+    margin-top: 10px;
+}
+
+.recommend_product_left_browse {
+    width: 188px;
+    height: 60px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 5px;
+}
+
+.product_browse_photo {
+    width: 75px;
+    height: 60px;
+    float: left;
+}
+
+.recommend_product_browse_con {
+    width: 110px;
+    height: 60px;
+    float: left;
+}
+
+.recommend_product_browse_name {
+    width: 110px;
+    height: 20px;
+    display: block;
+    line-height: 20px;
+}
+
+.recommend_product_browse_price {
+    width: 110px;
+    font-size: 16px;
+    color: #cf1e2c;
+    margin-top: 18px;
+}
+
+/*销售组合*/
+.sale_mix {
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 216px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.sale_mix_title {
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.sale_mix_con {
+    width: 100%;
+    padding: 10px 0 20px 0;
+}
+
+.sale_mix_master {
+    float: left;
+    width: 150px;
+    padding: 0 0 0 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sale_mix_master_img {
+    width: 100px;
+    height: 100px;
+}
+
+.sale_mix_master_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.product_add {
+    width: 28px;
+    height: 28px;
+    background: url(../images/PCimg/icon.png);
+    background-repeat: no-repeat;
+    background-position: -240px -915px;
+    position: absolute;
+    top: 35px;
+    right: 10px;
+}
+
+.product_sum {
+    width: 28px;
+    height: 28px;
+    background: url(../images/PCimg/icon.png);
+    background-repeat: no-repeat;
+    background-position: -275px -915px;
+    position: absolute;
+    top: 65px;
+    left: -20px;
+}
+
+.sale_mix_master_name {
+    width: 100px;
+    padding: 0 13px;
+}
+
+.sale_mix_suits {
+    width: 600px;
+    float: left;
+}
+
+.sale_mix_suits_list {
+    width: 150px;
+    float: left;
+    position: relative;
+}
+
+.sale_mix_total {
+    width: 150px;
+    float: left;
+    line-height: 25px;
+    padding-left: 35px;
+    position: relative;
+    top: -15px;
+    right: 0;
+}
+
+.total_name {
+    height: 50px;
+    overflow: hidden;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+.total_name a {
+    color: #333;
+}
+
+.total_price span {
+    color: #cf1e2c;
+}
+
+.buy_mix {
+    width: 65px;
+    padding: 0 5px;
+    display: block;
+    background: #cf1e2c;
+    text-align: center;
+}
+
+.total_btn {
+    margin: 10px 0;
+}
+
+.total_btn a {
+    color: #fff;
+}
+
+/*参数切换*/
+.detail_nav {
+    width: 978px;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+.nav_change {
+    padding: 10px 20px;
+    height: 16px;
+    line-height: 16px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+}
+
+.nav_select {
+    border-bottom: 2px solid #cf1e2c;
+    color: #cf1e2c;
+}
+
+.nav_con_top {
+    padding: 10px 25px;
+    border: solid #ddd;
+    border-width: 0 1px 1px;
+    overflow: hidden;
+}
+
+.nav_con_top li {
+    float: left;
+    width: 33%;
+    height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 2px 0;
+    display: block;
+    color: #666;
+}
+
+.nav_ad {
+    width: 980px;
+    height: 180px;
+    display: block;
+    padding-top: 15px;
+}
+
+.nav_ad img {
+    width: 100%;
+    height: 100%;
+}
+
+.detail_img {
+    width: 980px;
+}
+
+/*累计评价*/
+.total_evaluate {
+    margin-top: 25px;
+}
+
+.total_evaluate_title {
+    width: 965px;
+    height: 36px;
+    line-height: 36px;
+    background: #cf1e2c;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.total_evaluate_title span {
+    font-weight: bold;
+}
+
+.total_evaluate_title b {
+    font-size: 14px;
+}
+
+.total_evaluate_describe {
+    width: 978px;
+    height: 98px;
+    border: 1px solid #e5e5e5;
+}
+
+.total_evaluate_describe_left {
+    width: 70px;
+    padding: 8px 25px;
+    margin: 10px 0;
+    border-right: 1px dotted #e5e5e5;
+    color: #333;
+    text-align: center;
+    float: left;
+}
+
+.total_evaluate_describe_left P {
+    height: 35px;
+}
+
+.total_evaluate_describe_left b {
+    font-size: 28px;
+    color: #cf1e2c;
+}
+
+.total_evaluate_serve {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 38px;
+}
+
+.total_evaluate_serve_list {
+    width: 80px;
+    float: left;
+    text-align: center;
+}
+
+.total_evaluate_serve_line {
+    width: 400px;
+    height: 12px;
+    background: #e5e5e5;
+}
+
+.total_evaluate_serve_line_color {
+    background: #ffc3b8;
+    width: 80%;
+    height: 12px;
+    position: relative;
+}
+
+.sum_number {
+    width: 30px;
+    height: 25px;
+    background: url(../images/PCimg/icon.png);
+    background-repeat: no-repeat;
+    background-position: -320px -240px;
+    position: absolute;
+    top: -25px;
+    right: -15px;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+}
+
+.total_evaluate_main {
+    width: 978px;
+    height: auto;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.total_evaluate_main_title {
+    width: 948px;
+    height: 36px;
+    line-height: 36px;
+    background: #f8f8f8;
+    color: #333;
+    padding-left: 30px;
+}
+
+.evaluate_change {
+    float: left;
+}
+
+.total_evaluate_main_title span {
+    display: block;
+    float: left;
+    margin-right: 30px;
+}
+
+.evaluate_con {
+    border-top: 1px solid #e5e5e5;
+    padding: 15px 100px 10px 30px;
+}
+
+.evaluate_con_left {
+    width: 565px;
+    float: left;
+}
+
+.evaluate_con_left p {
+    color: #333;
+}
+
+.add_review {
+    margin-top: 7px;
+    color: #528fac;
+}
+
+.evaluate_con_right {
+    width: 220px;
+    float: right;
+    color: #333;
+}
+
+.evaluate_con_right_left {
+    float: left;
+}
+
+.evaluate_con_right_left span {
+    color: #999;
+}
+
+.evaluate_con_right_right {
+    float: right;
+    position: relative;
+}
+
+.user_rank_icon {
+    width: 30px;
+    height: 30px;
+    background: url(../images/PCimg/icon.png);
+    background-repeat: no-repeat;
+    background-position: -160px -635px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}

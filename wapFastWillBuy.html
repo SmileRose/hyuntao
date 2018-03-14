@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/all.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/fastWapSell.css" />
+</head>
+<body>
+
+<!--header start-->
+<header>
+	<div class="head-left float_left">
+		<a href="javascript:history.go(-1)">
+		</a>
+	</div>
+
+	<div class="head-right float_right">
+		<a href="javascript:;">
+		</a>
+	</div>
+</header>
+<!--header End-->
+
+<!--banner start-->
+<section class="banner">
+	<div style="-webkit-transform:translate3d(0,0,0);">
+		<div id="banner_box" class="box_swipe">
+			<ul style="list-style: none outside none; transition-duration: 500ms;">
+				<li>
+					<a onClick="return false;">
+						<img src="assets/images/wap/banner.png" alt="" style="width:100%;">
+					</a>
+				</li>
+				<li>
+					<a onClick="return false;">
+						<img src="assets/images/wap/banner.png" alt="" style="width:100%;">
+					</a>
+				</li>
+				<li>
+					<a onClick="return false;">
+						<img src="assets/images/wap/banner.png" alt="" style="width:100%;">
+					</a>
+				</li>
+			</ul>
+			<ol>
+				<li class="on"></li>
+				<li></li>
+				<li></li>
+			</ol>
+		</div>
+	</div>
+</section>
+<!--banner End-->
+
+<!--content start-->
+<section class="content">
+	<div class="text">
+		<div class="introduce">
+			<p class="name"><a href="javascript:;" title="">2014款头戴式HIFI耳机新款秋装 女上衣春节特惠 双卡双待双通</a><span>【限购1件】</span></p>
+			<p><a href="javascript:;" title="">6英寸高清大屏，全金属纤薄机身，智能超八核，按压式指纹识别！！</a></p>
+		</div>
+		<div class="price position-relative">
+			<div class="cost">
+				<span class="current float_left">¥2680.00 </span>
+				<i class="indexdiscount float_left">7.5折</i>
+				<p class="pastprice float_left">¥2999.00</p>
+			</div>
+			<!--进度条 start-->
+			<div class="fast_buy_bar">
+				<div class="fast_buy_bar_title float_right">
+					<div class="text-left float_left">
+						<span class="personNum">5</span>人已抢
+					</div>
+					<div class="text-right float_right">限量
+						<span class="totalNum">10</span>件
+					</div>
+				</div>
+				<div class="fast_buy_bar_content position-relative">
+					<div class="sellNum float_right">
+						<div class="sellNumber"></div>
+					</div>
+				</div>
+			</div>
+			<!--进度条 End-->
+		</div>
+	</div>
+	<div class="icon">
+		<div class="delivery">
+			<a href="javascript:;" title="">
+				<img src="assets/images/wap/blue.png">
+				<p>闪电发货</p>
+			</a>
+		</div>
+		<div class="delivery">
+			<a href="javascript:;" title="">
+				<img src="assets/images/wap/purple.png">
+				<p>卖家包邮</p>
+			</a>
+		</div>
+		<div class="delivery">
+			<a href="javascript:;" title="">
+				<img src="assets/images/wap/green.png">
+				<p>正品承诺</p>
+			</a>
+		</div>
+
+		<div class="delivery">
+			<a href="javascript:;" title="">
+				<img src="assets/images/wap/pink.png">
+				<p>无条件退换</p>
+			</a>
+		</div>
+	</div>
+	<div class="judge">
+		<a href="wapFastComment.html" title="评价">
+			<p>评价(9999)</p>
+			<p class="back">
+			</p>
+		</a>
+	</div>
+	<div class="judge">
+		<a href="wapFastGoodsDetail.html" title="商品详情">
+			<p>商品详情</p>
+			<p class="back">
+			</p>
+		</a>
+	</div>
+	<div class="judge">
+		<a href="wapFastRule.html" title="">
+			<p>抢购规则</p>
+			<p class="back">
+			</p>
+		</a>
+	</div>
+
+</section>
+<!--content end-->
+<!--底部按钮start-->
+<section>
+	<div class="foot_fill"></div>
+	<div class="btn">
+		<div class="count-down">
+			<div class="fast-buy-time">
+				<span class="buyer-time text-center">距开始还剩:</span>
+				<span class="time-content">									
+						<span class="time_h"></span>时
+				<span class="time_m"></span>分
+				<span class="time_s"></span>秒
+				<span class="time_ms"></span>
+				</span>
+			</div>
+		</div>
+
+		<div class="willbuy">
+			<a href="javascript:;" class="willbuybtn buybtn">
+				即将开抢
+			</a>
+		</div>
+	</div>
+</section>
+<!--底部按钮end-->
+
+<script src="assets/js/jquery-2.0.3.min.js"></script>
+<script src="assets/js/zz/zepto.js"></script>
+<script src="assets/js/zz/swipe.js"></script>
+<script>
+	 //轮播
+	$(function() {
+		new Swipe(document.getElementById('banner_box'), {
+			speed: 500,
+			auto: 3000,
+			callback: function() {
+				var lis = $(this.element).next("ol").children();
+				lis.removeClass("on").eq(this.index).addClass("on");
+			}
+		});
+	});
+	/*进度条*/
+	function toPercent(data) { //先把数值转化成百分比
+		var strData = parseFloat(data) * 100;
+		var ret = strData.toString() + "%";
+		return ret;
+	}
+	$(function() {
+		//轮播图片高宽设置一致
+		var width = $(window).width();
+		//console.log(width);
+		$(".box_swipe ul li img").css("height",width);
+		//console.log($(".box_swipe ul li img").height())
+		
+		$(".sellNumber").each(function() {
+			var n = $(this).parents(".fast_buy_bar_content").siblings(".fast_buy_bar_title").find(".personNum").text();
+			var numPerson = parseInt(n);
+			//console.log(numPerson)
+			var num = $(this).parents(".fast_buy_bar_content").siblings(".fast_buy_bar_title").find(".totalNum").text();
+			var numTatal = parseInt(num);
+			//console.log(numTatal)
+			percentage = numPerson / numTatal;
+			var myPrecent = toPercent(percentage); //调用函数
+			$(this).css("width", myPrecent); //进度条的百分比生效
+		});
+	});
+	 //倒计时
+	$(function() {
+		show_time();
+	});
+
+	function show_time() {
+		var time_start = new Date().getTime(); //设定当前时间
+		var time_end = new Date("2015/10/01 00:00:00").getTime(); //设定目标时间
+		// 计算时间差 
+		var time_distance = time_end - time_start;
+		// 天
+		var int_day = Math.floor(time_distance / 86400000)
+		time_distance -= int_day * 86400000;
+		// 时
+		var int_hour = Math.floor(time_distance / 3600000)
+		time_distance -= int_hour * 3600000;
+		// 分
+		var int_minute = Math.floor(time_distance / 60000)
+		time_distance -= int_minute * 60000;
+		// 秒 
+		var int_second = Math.floor(time_distance / 1000)
+		time_distance -= int_second * 1000;
+		// 毫秒
+		var int_minsecond = Math.floor(time_distance / 10)
+		time_distance -= int_minsecond * 10;
+		//	 时分秒为单数时、前面加零 
+		if (int_day < 10) {
+			int_day = "0" + int_day;
+		}
+		if (int_hour < 10) {
+			int_hour = "0" + int_hour;
+		}
+		if (int_minute < 10) {
+			int_minute = "0" + int_minute;
+		}
+		if (int_second < 10) {
+			int_second = "0" + int_second;
+		}
+		if (int_minsecond < 10) {
+			int_minsecond = "0" + int_minsecond;
+		}
+		// 显示时间 
+		$(".time_d").text(int_day);
+		$(".time_h").text(int_hour);
+		$(".time_m").text(int_minute);
+		$(".time_s").text(int_second);
+		$(".time_ms").text(time_distance);
+		// 设置定时器
+		setTimeout("show_time()", 100);
+	}
+</script>
+
+</body>
+
+</html>

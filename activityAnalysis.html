@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8" />
+		<title>活动列表</title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- basic styles -->
+
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css" />
+		<![endif]-->
+
+		<!-- page specific plugin styles -->
+
+		<!-- fonts -->
+		<!-- ace styles -->
+
+		<link rel="stylesheet" href="assets/css/ace.min.css" />
+		<link rel="stylesheet" href="assets/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="assets/css/zz.css" />
+
+		<!--[if lte IE 8]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		<![endif]-->
+
+		<!-- inline styles related to this page -->
+
+		<!-- ace settings handler -->
+
+		<script src="assets/js/ace-extra.min.js"></script>
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+		<!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+
+		<link rel="stylesheet" type="text/css" href="assets/css/zz.css" />
+		<link rel="stylesheet" type="text/css" href="assets/js/date-time/bootstrap-datetimepicker.min.css" />
+		<style>
+			.form-horizontal .checkbox {
+				padding: 0;
+			}
+			.form-horizontal .checkbox input[type=checkbox] {
+				vertical-align: middle;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="navbar navbar-default" id="navbar">
+			<script type="text/javascript">
+				try {
+					ace.settings.check('navbar', 'fixed')
+				} catch (e) {}
+			</script>
+
+			<div class="navbar-container" id="navbar-container">
+				<div class="navbar-header pull-left">
+					<a href="#" class="navbar-brand">
+						<small>							
+							好云淘营销中心
+						</small>
+					</a>
+					<!-- /.brand -->
+				</div>
+				<!-- /.navbar-header -->
+
+				<div class="navbar-header pull-right" role="navigation">
+					<ul class="nav ace-nav">
+						<li class="light-blue">
+							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
+								<img class="nav-user-photo" src="assets/avatars/user.jpg" alt="Jason's Photo" />
+								<span class="user-info">
+									<small>Welcome,</small>
+									Jason
+								</span>
+
+								<i class="icon-caret-down"></i>
+							</a>
+
+							<ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+								<li>
+									<a href="#">
+										<i class="icon-cog"></i> Settings
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										<i class="icon-user"></i> Profile
+									</a>
+								</li>
+
+								<li class="divider"></li>
+
+								<li>
+									<a href="#">
+										<i class="icon-off"></i> Logout
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--head End-->
+
+		<div class="main-container" id="main-container">
+			<script type="text/javascript">
+				try {
+					ace.settings.check('main-container', 'fixed')
+				} catch (e) {}
+			</script>
+
+			<div class="main-container-inner">
+				<a class="menu-toggler" id="menu-toggler" href="#">
+					<span class="menu-text"></span>
+				</a>
+
+				<div class="sidebar" id="sidebar">
+					<script type="text/javascript">
+						try {
+							ace.settings.check('sidebar', 'fixed')
+						} catch (e) {}
+					</script>
+					<ul class="nav nav-list">
+						<li class="active">
+							<a href="#">
+								<i class="icon-dashboard"></i>
+								<span class="menu-text"> 限制抢购</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon-text-width"></i>
+								<span class="menu-text"> 创建活动 </span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon-list-alt"></i>
+								<span class="menu-text"> 活动列表 </span>
+							</a>
+						</li>
+					</ul>
+					<!-- /.nav-list -->
+					<script type="text/javascript">
+						try {
+							ace.settings.check('sidebar', 'collapsed')
+						} catch (e) {}
+					</script>
+				</div>
+				<!--左侧菜单 End -->
+
+				<!--右侧主体 start -->
+				<div class="main-content">
+					<div class="breadcrumbs" id="breadcrumbs">
+						<script type="text/javascript">
+							try {
+								ace.settings.check('breadcrumbs', 'fixed')
+							} catch (e) {}
+						</script>
+
+						<ul class="breadcrumb">
+							<li>
+								<i class="icon-home home-icon"></i>
+								<a href="#">限时抢购</a>
+							</li>
+
+							<li class="active">创建活动</li>
+						</ul>
+					</div>
+
+					<!--table Start-->
+					<div class="page-content">
+						<div class="page-header">
+							<h1>活动列表</h1>
+						</div>
+
+						<div class="page-content">
+							<!-- tab start -->
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="col-sm-2">
+										<img src="assets/images/gallery/thumb-2.jpg">
+									</div>
+
+									<div class=" col-sm-10">
+										<p class="alert">
+											<span class="col-sm-12">28度泸州老窖原浆500ml双瓶套装套装</span>
+										</p>
+										<p class="alert">
+											<span class="col-sm-2">商城售价 </span>
+											<span class="col-sm-10">￥100.00</span>
+										</p>
+										<p class="alert">
+											<span class="col-sm-2">抢购价格</span>
+											<span class="col-sm-3">
+												<span class="red bigger-120 bolder">￥50.00</span>(好云淘PC端)
+											</span>
+											<span class="col-sm-3">
+												<span class="red bigger-120 bolder">￥50.00</span>(好云淘PC端)
+											</span>
+											<span class="col-sm-3">
+												<span class="red bigger-120 bolder">￥50.00</span>(好云淘PC端)
+											</span>
+										</p>
+										<p class="alert">
+											<span class="col-sm-2">活动商品</span>
+											<span class="col-sm-3">
+												<span class="red bigger-120 bolder">500</span>件
+											</span>
+
+										</p>
+										<p class="alert">
+											<span class="col-sm-2">销售数量</span>
+											<span class="col-sm-3">
+												<span class="red bigger-120 bolder">1000</span>件
+											</span>
+										</p>
+									</div>
+								</div>
+
+								<div class="col-sm-12 alert">
+									<div id="zzBar" style="width: 800px; height: 300px; border: 1px solid #CCC; margin-top: 40px;"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="assets/js/echarts/echarts.js"></script>
+		<script type="text/javascript">
+			 // 路径配置
+			require.config({
+				paths: {
+					echarts: 'assets/js/echarts'
+				}
+			});
+			 // 使用
+			require(
+				[
+					'echarts',
+					'echarts/chart/bar' // 使用柱状图就加载bar模块，按需加载
+				],
+				function(ec) {
+					// 基于准备好的dom，初始化echarts图表
+					var myChart = ec.init(document.getElementById('zzBar'));
+					option = {
+						title: {
+							text: '活动销售分析',
+							subtext: 'sale Analysis'
+						},
+						tooltip: {
+							trigger: 'axis'
+						},
+						legend: {
+							data: ['好云淘PC端', '好云淘移动端', '企业移动端']
+						},
+						toolbox: {
+							show: true,
+							feature: {
+								mark: {
+									show: true
+								},
+								dataView: {
+									show: true,
+									readOnly: false
+								},
+								magicType: {
+									show: true,
+									type: ['line', 'bar']
+								},
+								restore: {
+									show: true
+								},
+								saveAsImage: {
+									show: true
+								}
+							}
+						},
+						calculable: true,
+						xAxis: [{
+							type: 'value',
+							//							boundaryGap: [0, 0.01]
+						}],
+						yAxis: [{
+							type: 'category',
+							data: ['好云淘PC端', '好云淘移动端', '企业移动端']
+						}],
+						series: [{
+							name: '活动销售分析',
+							type: 'bar',
+							itemStyle: {
+								normal: {
+									color: function(params) {
+										// build a color map as your need.
+										var colorList = [
+											'#F4E001', '#F0805A', '#26C0C0'   //柱状图颜色设置
+										];
+										return colorList[params.dataIndex]
+									},
+									label: {
+										show: true,
+										position: 'top',
+										formatter: '{b}\n{c}'
+									}
+								}
+							},
+							data: [18203, 55989, 18540]
+						}, ]
+					};
+					// 为echarts对象加载数据 
+					myChart.setOption(option);
+				}
+			);
+		</script>
+
+	</body>
+
+</html>

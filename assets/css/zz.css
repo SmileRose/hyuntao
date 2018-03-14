@@ -1,0 +1,15 @@
+.zz-add-img{width: 30px; height: 30px; margin-right: 10px;}
+.zzHiddenImg{position: relative;}
+.hoverImg{position: absolute; right: 0; top: 0;z-index: 10;}
+
+
+/*上传按钮*/
+											
+.div1{position:relative;float:left;width:55px;height:26px;background:#f5696c;}
+.div2{color:#FFF;text-align:center;font-size:12px;line-height:26px;}
+.inputstyle{position:absolute;top:0;left:0;width:55px;height:26px;outline:medium none;font-size:12px;opacity:0;cursor:pointer;filter:alpha(opacity=0);-moz-opacity:0;}
+.form-horizontal .checkbox{padding:0;}
+.form-horizontal .checkbox input[type=checkbox]{vertical-align:middle;}
+
+.zz-width{width: 40px; text-align: center;}
+
